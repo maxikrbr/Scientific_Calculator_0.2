@@ -157,6 +157,10 @@ class MainActivity : AppCompatActivity() {
             outputScreen.text = (outputScreen.text.toString() + "tan")
         }
 
+        buttonDiv.setOnClickListener {
+            outputScreen.text = (outputScreen.text.toString() + "/")
+        }
+
         buttonInv.setOnClickListener {
             outputScreen.text = (outputScreen.text.toString() + "^" + "(-1)")
         }
